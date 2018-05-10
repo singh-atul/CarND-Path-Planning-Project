@@ -31,8 +31,8 @@ by taking the following flags : (intially all these flags are set to false)
 
 ```bool too_close = false;
 bool left_free = false;
-bool right_free = false;```
-
+bool right_free = false;
+```
 The implementation of the prediction part is present in main.cpp at line 261 to 304. Where I have calculated lane and position of each car , and considered it to be dangerous for the ego_car if its distance from it is less than 30m.
 
 #### BEHAVIOUR:
